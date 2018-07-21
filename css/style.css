@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    background: linear-gradient(to right bottom, #35354c, #006491, #0099ab, #00c982, #a8eb12);
+    background-position: center;
+    background-size: contain;
+    padding: 50px;
+    min-height: 100vh;
+    font-family: 'Lato', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    width: 1000px;
+    background-color: #416341;
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.content label {
+    color: #fff;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.content textarea {
+    width: 80%;
+    height: 300px;
+    padding: 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+.content input {
+    width: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: #637892;
+    color: #fff;
+    border: 2px solid;
+    box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.answer {
+    width: 1000px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+.answer .answer-box {
+    background-color: #93d4a3;
+    width: inherit;
+    min-height: 150px;
+    border-top: 1px solid #000;
+    padding: 30px;
+    position: relative;
+}
+
+.answer .text {
+    margin-top: 20px;
+    overflow-wrap: break-word;
+}
+
+.answer .cross {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    cursor: pointer;
+    color: red;
+}
